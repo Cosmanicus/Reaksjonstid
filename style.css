@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#reactionGrid {
+    display: grid;
+    
+    gap: 8px;
+}
+
+#reactionGrid button {
+    width: 192px;
+    height: 192px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid rgb(141, 54, 54);
+    border-radius: 50%;
+    background-color: rgb(83, 42, 13);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#lightOn {
+    background-color: yellow;
+}
